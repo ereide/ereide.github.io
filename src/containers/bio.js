@@ -7,6 +7,8 @@ import katta_uni from './../assets/oslo_katedralskole-1.jpg';
 import { BioCarouselInstance } from './../components/carousel.js';
 import DetailedBox from './../components/detailedbox.js';
 
+import './containers.css';
+
 const cam_schoolbox = (
   <DetailedBox
     leftImage={false}

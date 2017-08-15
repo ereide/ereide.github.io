@@ -59,8 +59,7 @@ export default function AsyncLoadable(opts) {
     Object.assign(
       {
         loading: Loading,
-        delay: 200,
-        timeout: 10
+        delay: 200
       },
       opts
     )

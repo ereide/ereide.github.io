@@ -18,6 +18,9 @@ import unix from './../assets/unix.png';
 import feedback from './../assets/feedback.png';
 import entrepreneur from './../assets/entrepreneur.jpg';
 
+//Importing css
+import './containers.css';
+
 //Functions
 function imgText(image, heading, text) {
   return (

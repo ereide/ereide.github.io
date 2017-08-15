@@ -12,6 +12,7 @@ import cusf_logo from './../assets/cusflogo.jpg';
 import { BioCarouselInstance } from './../components/carousel.js';
 
 import './main.css';
+import './containers.css';
 
 const personalBox = (
   <div className="personal-box">

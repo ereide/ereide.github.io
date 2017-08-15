@@ -7,6 +7,8 @@ import m3nevada_proj from './../assets/nevada.jpg';
 import m3avionics_proj from './../assets/m3avionics.jpg';
 import woodchuck_proj from './../assets/woodchuck.jpg';
 
+import './containers.css';
+
 const blackbox_probox = (
   <DetailedBox
     leftImage={false}

@@ -7,6 +7,8 @@ import swiftnav_logo from './../assets/swiftnav.png';
 import sommerskole_logo from './../assets/sommerskolen_2.jpg';
 import nexans_logo from './../assets/nexans.png';
 
+import './containers.css';
+
 const swiftnav_workbox = (
   <DetailedBox
     leftImage={true}
