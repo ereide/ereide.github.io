@@ -22,7 +22,7 @@
       "git add"
     ]
   },
-  "homepage": "https://reide.github.io/home_page_react",
+  "homepage": "https://ereide.github.io/home_page_react",
   "scripts": {
     "precommit": "lint-staged",
     "predeploy": "npm run build",

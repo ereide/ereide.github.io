@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 
 import { Nav, Navbar, NavItem, Grid } from 'react-bootstrap';
 
 import AsyncLoadable from './components/asyncloading.js';
 
-const AsyncMain = AsyncLoadable({
-  loader: () => import('./containers/main')
-});
+import Main from './containers/main';
 
 const AsyncBio = AsyncLoadable({
   loader: () => import('./containers/bio')
@@ -79,14 +77,15 @@ class Footer extends React.Component {
 }
 
 const routediv = (
-  <div>
-    <Route exact path="/" component={AsyncMain} />
+  <Switch>
+    <Route exact path="/" component={Main} />
     <Route exact path="/about" component={AsyncAbout} />
     <Route exact path="/bio" component={AsyncBio} />
     <Route exact path="/experience" component={AsyncExperience} />
     <Route exact path="/skills" component={AsyncSkills} />
     <Route exact path="/projects" component={AsyncProjects} />
-  </div>
+    <Route path="" component={Main} />
+  </Switch>
 );
 
 class App extends Component {
