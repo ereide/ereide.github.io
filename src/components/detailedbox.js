@@ -27,10 +27,10 @@ class DetailedBox extends React.Component {
         <h4 className="featurette-heading text-muted">
           {this.props.subheading}
         </h4>
-        <p className="lead">
+        <p>
           {this.props.firstParagraph}
         </p>
-        <p className="lead">
+        <p>
           {this.props.secondParagraph}
         </p>
         {this.props.children}

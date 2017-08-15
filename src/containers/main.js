@@ -11,8 +11,10 @@ import cusf_logo from './../assets/cusflogo.jpg';
 
 import { BioCarouselInstance } from './../components/carousel.js';
 
+import './main.css';
+
 const personalBox = (
-  <div>
+  <div className="personal-box">
     <Row>
       <Col md={4}>
         <Image src={eivind_portrett} rounded responsive />
@@ -45,7 +47,7 @@ const personalBox = (
 function linkImg(image, heading, text, link) {
   return (
     <Link to={link}>
-      <Image src={image} height={140} width={140} circle />
+      <Image src={image} height={160} rounded />
       <h2>
         {heading}
       </h2>
@@ -100,7 +102,7 @@ class Main extends React.Component {
         <BioCarouselInstance />
         <br />
         {personalBox}
-        <br />
+        <hr />
         {referenceArea}
       </div>
     );

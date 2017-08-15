@@ -15,7 +15,7 @@ const cam_schoolbox = (
     mutedheading={'2014 - 2018'}
     subheading={'MEng, Information Engineering'}
   >
-    <p className="lead">
+    <p>
       At Cambridge I am studying Information engineering and instrumentation and
       control. During my two first years I studied general engineering
       disciplines, including Control Theory and Information, Mechanical
@@ -23,7 +23,7 @@ const cam_schoolbox = (
       Science, Thermodynamics and Fluid dynamics and Mathematics, as well as
       extensive coursework.
     </p>
-    <p className="lead">
+    <p>
       Both my first two years in Cambridge I was awarded class I for my
       performance, and ended up in the top 5th and 6th percentile respectively
       the two years.
@@ -39,7 +39,7 @@ const mit_schoolbox = (
     mutedheading={'2016 - 2017'}
     subheading={'Computer Science'}
   >
-    <p className="lead">
+    <p>
       I am doing my third year in MIT after being selected to take part in the
       Cambridge - MIT Exchange on a BP scholarship. While I am at MIT I will be
       taking various courses on{' '}
@@ -49,7 +49,7 @@ const mit_schoolbox = (
       </b>{' '}
       and more.
     </p>
-    <p className="lead">
+    <p>
       The opportunity to go to MIT has broadened my technical abilities as well
       as given me an insight into a different student culture.
     </p>
@@ -64,7 +64,7 @@ const katta_schoolbox = (
     mutedheading={'2011 - 2014'}
     subheading={'General Studies with Natural Sciences'}
   >
-    <p className="lead">
+    <p>
       I did my High School Education at Oslo Katedralskole. Oslo Katedralskole
       is Norway's oldest and most prestigious high school, and has an
       outstanding list of notable alumni. During my time there I specialized in{' '}
@@ -73,7 +73,7 @@ const katta_schoolbox = (
       </b>{' '}
       and <b className="notice"> Chemistry</b>
     </p>
-    <p className="lead">
+    <p>
       I achieved an average of 5.9 out of 6, one of the highest in my year. My
       time a Oslo Katedralskole was both very educational, as well as giving
       lifelong friends.
