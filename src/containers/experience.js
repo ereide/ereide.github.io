@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { WorkCarouselInstance } from './components/carousel.js';
-import DetailedBox from './components/detailedbox.js';
+import { WorkCarouselInstance } from './../components/carousel.js';
+import DetailedBox from './../components/detailedbox.js';
 
 import swiftnav_logo from './../assets/swiftnav.png';
 import sommerskole_logo from './../assets/sommerskolen_2.jpg';

@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Row, Col, Image } from 'react-bootstrap';
 
-import DetailedBox from './components/detailedbox.js';
+import DetailedBox from './../components/detailedbox.js';
 
 //importing images
 import c_cpp from './../assets/c_cpp.jpg';
@@ -60,14 +60,14 @@ const python_skillbox = (
     mutedheading={'- Professional'}
     subheading={''}
   >
-    <p class="lead">
+    <p>
       I have a strong foundation with Python through my various internships and
       classes at MIT and Cambridge. Python is my preferred language for personal
       use and prototyping. During my internship at Swift Navigation I learned to
       write fast, reliable and scalable Python
     </p>
     <h3 class="featurette-heading">Packages:</h3>
-    <p class="lead">
+    <p>
       I have used numpy and scipy extensively for writing fast code computations
       in Python. I have also experience with building web servers with Flask,
       Bootstrap, SQL databases.
@@ -83,7 +83,7 @@ const c_cpp_skillbox = (
     mutedheading={'- Experienced'}
     subheading={''}
   >
-    <p class="lead">
+    <p>
       I have written several programs in C and C++ through my involvement in
       student societies. In particular I have written firmware for various
       flight computers during my time in Cambridge University Spaceflight. I
@@ -101,7 +101,7 @@ const csharp_skillbox = (
     mutedheading={'- Experienced'}
     subheading={''}
   >
-    <p class="lead">
+    <p>
       {' '}During my time at Nexans I wrote several programs for calculating
       various physical properties in underwater cables in C#. I also got
       introduced to writing GUIs with the .NET framework for C#.
@@ -141,7 +141,7 @@ const leadership_skillbox = (
     mutedheading={'- Experienced'}
     subheading={''}
   >
-    <p class="lead">
+    <p>
       I have throughout my education and extra curriculars had experience with
       working in teams, and often leading teams. This includes both technical
       and non technical roles. I communicate well with others and I am also used
@@ -156,7 +156,7 @@ const control_skillbox = (
     image={feedback}
     heading={'Feedback Control Systems and Estimation '}
   >
-    <p class="lead">
+    <p>
       One of my main areas of focus at University has been feedback control
       systems and estimation. I have written control loops for a drone as well
       as having had exposure to estimation techniques during my time at Swift
@@ -172,7 +172,7 @@ const entrepeneur_skillbox = (
     image={entrepreneur}
     heading={'Entrepreneurship'}
   >
-    <p class="lead">
+    <p>
       During my time at MIT I had the opportunity to take an advanced
       entrepreneurship project class exposing me to the inner workings on how to
       start a business. This, combined with my time in San Francisco, has helped

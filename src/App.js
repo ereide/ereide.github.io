@@ -5,29 +5,36 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 import { Nav, Navbar, NavItem, Grid } from 'react-bootstrap';
 
-import asyncComponent from './asyncloading.js';
+import AsyncLoadable from './components/asyncloading.js';
 
-const AsyncMain = asyncComponent(() => import('./views/main'));
-const AsyncBio = asyncComponent(() => import('./views/bio'));
-const AsyncExperience = asyncComponent(() => import('./views/experience'));
-const AsyncProjects = asyncComponent(() => import('./views/projects'));
-const AsyncSkills = asyncComponent(() => import('./views/skills'));
-const AsyncAbout = asyncComponent(() => import('./views/about'));
+const AsyncMain = AsyncLoadable({
+  loader: () => import('./containers/main')
+});
 
-/*
-import Main from './views/main.js'
-import Bio from './views/bio.js'
-import Experience from './views/experience.js'
-import Projects from './views/projects.js'
-import Skills from './views/skills.js'
-import About from './views/about.js'
-*/
-//import {Main, Skills, About, Projects, Bio, Experience} from './views/'
+const AsyncBio = AsyncLoadable({
+  loader: () => import('./containers/bio')
+});
+
+const AsyncExperience = AsyncLoadable({
+  loader: () => import('./containers/experience')
+});
+
+const AsyncProjects = AsyncLoadable({
+  loader: () => import('./containers/projects')
+});
+
+const AsyncSkills = AsyncLoadable({
+  loader: () => import('./containers/skills')
+});
+
+const AsyncAbout = AsyncLoadable({
+  loader: () => import('./containers/about')
+});
 
 class Header extends React.Component {
   render() {
     return (
-      <Navbar inverse>
+      <Navbar bsStyle="pills">
         <Navbar.Header>
           <Navbar.Brand>
             <Link to={'/'}> Eivind Roson Eide </Link>

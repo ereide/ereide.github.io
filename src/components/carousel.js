@@ -2,17 +2,19 @@ import React from 'react';
 
 import { Carousel } from 'react-bootstrap';
 
-import cam_uni from './../../assets/cambridge_university.jpg';
-import mit_uni from './../../assets/MIT-campus.jpg';
-import katta_uni from './../../assets/oslo_katedralskole-1.jpg';
+import cam_uni from './../assets/cambridge_university.jpg';
+import mit_uni from './../assets/MIT-campus.jpg';
+import katta_uni from './../assets/oslo_katedralskole-1.jpg';
 
-import halden_work from './../../assets/nexans-halden.jpg';
-import sanfran_work from './../../assets/golden-gate-bridge.jpg';
+import halden_work from './../assets/nexans-halden.jpg';
+import sanfran_work from './../assets/golden-gate-bridge.jpg';
+
+import './carousel.css';
 
 class BioCarouselInstance extends React.Component {
   render() {
     return (
-      <Carousel>
+      <Carousel className="carousel">
         <Carousel.Item>
           <img width={1140} height={500} alt="1140x500" src={cam_uni} />
           <Carousel.Caption>

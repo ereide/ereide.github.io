@@ -9,7 +9,7 @@ import eivind_portrett from './../assets/eivindeide.jpg';
 import swiftnav_short from './../assets/swiftnav.png';
 import cusf_logo from './../assets/cusflogo.jpg';
 
-import { BioCarouselInstance } from './components/carousel.js';
+import { BioCarouselInstance } from './../components/carousel.js';
 
 const personalBox = (
   <div>

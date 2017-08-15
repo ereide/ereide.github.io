@@ -4,8 +4,8 @@ import cam_uni from './../assets/cambridge_university.jpg';
 import mit_uni from './../assets/MIT-campus.jpg';
 import katta_uni from './../assets/oslo_katedralskole-1.jpg';
 
-import { BioCarouselInstance } from './components/carousel.js';
-import DetailedBox from './components/detailedbox.js';
+import { BioCarouselInstance } from './../components/carousel.js';
+import DetailedBox from './../components/detailedbox.js';
 
 const cam_schoolbox = (
   <DetailedBox
@@ -15,7 +15,7 @@ const cam_schoolbox = (
     mutedheading={'2014 - 2018'}
     subheading={'MEng, Information Engineering'}
   >
-    <p class="lead">
+    <p className="lead">
       At Cambridge I am studying Information engineering and instrumentation and
       control. During my two first years I studied general engineering
       disciplines, including Control Theory and Information, Mechanical
@@ -23,7 +23,7 @@ const cam_schoolbox = (
       Science, Thermodynamics and Fluid dynamics and Mathematics, as well as
       extensive coursework.
     </p>
-    <p class="lead">
+    <p className="lead">
       Both my first two years in Cambridge I was awarded class I for my
       performance, and ended up in the top 5th and 6th percentile respectively
       the two years.
@@ -39,17 +39,17 @@ const mit_schoolbox = (
     mutedheading={'2016 - 2017'}
     subheading={'Computer Science'}
   >
-    <p class="lead">
+    <p className="lead">
       I am doing my third year in MIT after being selected to take part in the
       Cambridge - MIT Exchange on a BP scholarship. While I am at MIT I will be
       taking various courses on{' '}
-      <b class="notice">
+      <b className="notice">
         Algorithms, Feedback Control, Software construction, Inference,
         Entrepreneurship, Signals &amp; Systems
       </b>{' '}
       and more.
     </p>
-    <p class="lead">
+    <p className="lead">
       The opportunity to go to MIT has broadened my technical abilities as well
       as given me an insight into a different student culture.
     </p>
@@ -64,14 +64,16 @@ const katta_schoolbox = (
     mutedheading={'2011 - 2014'}
     subheading={'General Studies with Natural Sciences'}
   >
-    <p class="lead">
+    <p className="lead">
       I did my High School Education at Oslo Katedralskole. Oslo Katedralskole
       is Norway's oldest and most prestigious high school, and has an
       outstanding list of notable alumni. During my time there I specialized in{' '}
-      <b class="notice"> Physics, Maths for Natural Sciences, Economics </b> and{' '}
-      <b class="notice"> Chemistry</b>
+      <b className="notice">
+        {' '}Physics, Maths for Natural Sciences, Economics{' '}
+      </b>{' '}
+      and <b className="notice"> Chemistry</b>
     </p>
-    <p class="lead">
+    <p className="lead">
       I achieved an average of 5.9 out of 6, one of the highest in my year. My
       time a Oslo Katedralskole was both very educational, as well as giving
       lifelong friends.
