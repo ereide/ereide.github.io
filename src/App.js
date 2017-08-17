@@ -102,6 +102,14 @@ class App extends Component {
       </Router>
     );
   }
+
+  componentDidMount() {
+    AsyncBio.preload();
+    AsyncExperience.preload();
+    AsyncProjects.preload();
+    AsyncSkills.preload();
+    AsyncAbout.preload();
+  }
 }
 
 export default App;

@@ -32,7 +32,7 @@ class BioCarouselInstance extends React.Component {
         <Carousel.Item>
           <img width={1140} height={500} alt="1140x500" src={katta_uni} />
           <Carousel.Caption>
-            <h1>Oslo Katedralskole 2014-2018</h1>
+            <h1>Oslo Katedralskole 2011-2014</h1>
             <p> Natural Sciences and Maths</p>
           </Carousel.Caption>
         </Carousel.Item>
