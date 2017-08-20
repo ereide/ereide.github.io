@@ -22,7 +22,7 @@ class DetailedBox extends React.Component {
       <Col md={7}>
         <h2 className="featurette-heading">
           {this.props.heading}{' '}
-          <span class="text-muted"> {this.props.mutedheading}</span>
+          <span className="text-muted"> {this.props.mutedheading}</span>
         </h2>
         <h4 className="featurette-heading text-muted">
           {this.props.subheading}

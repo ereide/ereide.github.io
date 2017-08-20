@@ -31,12 +31,21 @@ const nexans_workbox = (
     image={nexans_logo}
     heading={'Nexans Norway - '}
     mutedheading={'Software intern'}
-    subheading={'Oslo, Norway, June - September 2015'}
-    firstParagraph={
-      'Physical modelling and software development. Developed software programs with intuitive GUIs for modelling various physical properties that could be limiting factors in the design of cables for remote operated underwater vehicles.'
-    }
-    secondParagraph={''}
-  />
+    subheading={'Oslo, Norway, June - September 2017 and June - September 2015'}
+  >
+    <p>
+      At Nexans I have been assigned projects encompassing physical modelling
+      and developing software to calculate or predict these phenomenons. These
+      projects include creating a simple finite element program for determining
+      heat conduction within cables to assist manufacturing. I did also work on
+      a program to improve the measurements of resistance, capacitance and
+      inductance using the Telegrapher’s equations. I was also assigned a
+      project to try to investigate a recurring problem of some cables being
+      uncoilable for storage. To assist the design and manufacturing of these
+      cables I developed intuitive computer programs for calculating these
+      effect. These programs are widely used today within the company.
+    </p>
+  </DetailedBox>
 );
 
 const sommerskolen_workbox = (
@@ -60,9 +69,9 @@ class Experience extends React.Component {
         <WorkCarouselInstance />
         <br />
         <hr />
-        {swiftnav_workbox}
-        <hr />
         {nexans_workbox}
+        <hr />
+        {swiftnav_workbox}
         <hr />
         {sommerskolen_workbox}
       </div>

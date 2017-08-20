@@ -24,7 +24,7 @@ const personalBox = (
         <h1>Eivind Roson Eide</h1>
         <p>
           I am a skilled software engineer studying at MIT and University of
-          Cambridge. I am 21 years old and I am of half Norwegian and half
+          Cambridge. I am 22 years old and I am of half Norwegian and half
           Spanish decent. The last couple of years I have had several relevant
           and interesting internships and contributed to projects that have
           given me an insight into a broad range of different areas. I also
