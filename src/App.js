@@ -54,6 +54,11 @@ class Header extends React.Component {
               <Link to="/skills">Skills</Link>
             </NavItem>
           </Nav>
+          <Nav pullRight>
+            <NavItem>
+              <Link to="/about">About this page</Link>
+            </NavItem>
+          </Nav>
         </Navbar.Collapse>
       </Navbar>
     );
